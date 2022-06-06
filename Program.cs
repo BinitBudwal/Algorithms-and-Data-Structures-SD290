@@ -9,7 +9,7 @@ string[] wordsArray = new string[integer];
 for (int i = 0; i < wordsArray.Length; i++)
 {
     wordsArray[i] = Console.ReadLine();
-    string s = wordsArray[i] ;
+    string s = wordsArray[i];
     bool hasSpace = s.Contains(" ");
     if (hasSpace == true)
     {
